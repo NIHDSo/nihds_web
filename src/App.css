@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.nav_bar {
+  display: flex;
+  /* background-color: green; */
+}
+
+.nav_logo {
+  background: url("./assets/nav_logo.png");
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  width: 3rem;
+}
+
+.nav_bar ul {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+.nav_bar ul li {
+  margin: 0 2rem;
+  font-size: 1.4rem;
+}
+
+.hero_section {
+  /* background: url("./assets/bg.jpg"); */
+  background-size: cover;
+  background-image: url("./assets/bg.jpg");
+  text-align: center;
+  height: 90vh;
+}
+
+.hero_container {
+  margin-top: 6rem;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.hero_h1 {
+  font-size: 7vw; /* font size of the h1 */
+  margin-bottom: 2rem;
+  color: #000080;
+}
+
+.hero_p {
+  font-size: 3.5vw;
+  color: green;
+}
+
+.join_btn {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  border-radius: 4rem;
+  font-size: 1.5rem;
+  padding: -0.4rem;
+}
+
+.join_btn a {
+  border-radius: 0.1rem;
+  background-color: #008000;
+  color: white;
+
+  text-decoration: none;
+  padding: 0.7rem 1rem;
+}
+
+.who_we_are {
+  margin: 4.5vw;
+  display: flex;
+  gap: 2rem;
+}
+
+.card_one {
+  flex: 1.4;
+}
+
+.card_one_h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.card_one p {
+  font-size: 1.4rem;
+}
+
+.card_two {
+  background: url("./assets/bg.jpg");
+  flex: 1;
+  border: 1px solid black;
+}
