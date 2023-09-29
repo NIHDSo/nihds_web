@@ -1,6 +1,10 @@
+import NavBar from "../Components/NavBar";
+import Footer from "../Components/Footer";
+
 const AboutPage = () => {
   return (
     <>
+      <NavBar />
       <div>
         <h3>Mission</h3>
         <p>
@@ -27,6 +31,7 @@ const AboutPage = () => {
           creativity.
         </p>
       </div>
+      <Footer />
     </>
   );
 };

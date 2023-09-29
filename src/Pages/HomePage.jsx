@@ -1,3 +1,5 @@
+import Button from "../Components/Button";
+import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
 
 const HomePage = () => {
@@ -8,20 +10,29 @@ const HomePage = () => {
         <div className="hero_container">
           <h1 className="hero_h1">NIHDS</h1>
           <p className="hero_p">
-            Higeria Innovative Hardware Development Society.
+            Nigeria Innovative Hardware Development Society.
           </p>
-          <div className="hero_btn">
-            <button className="join_btn">
-              <a href="/">Join Community</a>
-            </button>
-          </div>
+          <Button />
         </div>
         <div></div>
       </section>
-      <section>
-        <div className="who_we_are">
-          <div className="card_one">
+      <section className="who_we_are">
+        <div className="card_one">
+          <div className="card_one_text">
             <h2 className="card_one_h2">Who We Are.</h2>
+            <p>
+              NIHDS is not just a community, it is a platform that serves as a
+              cutting edge tool for hardware developers, startup founders
+              entrepreneurs and AI engineers in Nigeria with a common goal
+              called "National Development".
+              <a href="/about">Read more about us</a>
+            </p>
+          </div>
+          <div className="card_one_img"></div>
+        </div>
+        <div className="card_two">
+          <div className="card_two_text">
+            <h2 className="card_two_h2">Who We Are.</h2>
             <p>
               NIHDS is not just a community, it is a platform that serves as a
               cutting edge tool for hardware developers, startup founders
@@ -29,9 +40,41 @@ const HomePage = () => {
               called "National Development".
             </p>
           </div>
-          <div className="card_two"></div>
+          <div className="card_two_img"></div>
+        </div>
+        <div className="card_three">
+          <div className="card_three_text">
+            <h2 className="card_three_h2">Who We Are.</h2>
+            <p>
+              NIHDS is not just a community, it is a platform that serves as a
+              cutting edge tool for hardware developers, startup founders
+              entrepreneurs and AI engineers in Nigeria with a common goal
+              called "National Development".
+            </p>
+          </div>
+          <div className="card_three_img"></div>
         </div>
       </section>
+      <section className="programs">
+        <h2>Our Programs</h2>
+        <ul>
+          <li>Education and Skill development</li>
+          <li>Incubators and Accelerators</li>
+          <li>Research and Development</li>
+          <li>Infrastructure</li>
+          <li>Regulatory framework</li>
+          <li>Access to Funding</li>
+          <li>Collaboration and Networking</li>
+          <li>and lots more</li>
+        </ul>
+      </section>
+      <section className="body_cta">
+        <div>
+          <h3>Connect with innovative minds</h3>
+          <Button />
+        </div>
+      </section>
+      <Footer />
     </>
   );
 };
