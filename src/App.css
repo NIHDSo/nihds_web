@@ -162,6 +162,26 @@ body {
   font-size: 4vw;
 }
 
+.about_wrapper {
+  margin: 4vw;
+}
+
+.mission,
+.vision {
+  padding: 2rem;
+  margin: 1.5rem 0;
+}
+
+.mission p,
+.vision p {
+  font-size: 1.2rem;
+}
+
+.about_wrapper h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
 .site-footer {
   background-color: black;
   color: white;
