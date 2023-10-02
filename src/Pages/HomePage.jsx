@@ -14,7 +14,6 @@ const HomePage = () => {
           </p>
           <Button />
         </div>
-        <div></div>
       </section>
       <section className="who_we_are">
         <div className="card_one">
@@ -56,7 +55,7 @@ const HomePage = () => {
         </div>
       </section>
       <section className="programs">
-        <h2>Our Programs</h2>
+        <h2>Membership benefits</h2>
         <ul>
           <li>Education and Skill development</li>
           <li>Incubators and Accelerators</li>
