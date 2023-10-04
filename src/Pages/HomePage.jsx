@@ -31,7 +31,7 @@ const HomePage = () => {
         </div>
         <div className="card_two">
           <div className="card_two_text">
-            <h2 className="card_two_h2">What we do.</h2>
+            <h2 className="card_two_h2">What we do </h2>
             <p>
               We empower hardware developers, startup founders, entrepreneurs,
               and AI engineers in Nigeria by providing a collaborative platform
