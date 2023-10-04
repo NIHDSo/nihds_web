@@ -31,24 +31,25 @@ const HomePage = () => {
         </div>
         <div className="card_two">
           <div className="card_two_text">
-            <h2 className="card_two_h2">Who We Are.</h2>
+            <h2 className="card_two_h2">What we do.</h2>
             <p>
-              NIHDS is not just a community, it is a platform that serves as a
-              cutting edge tool for hardware developers, startup founders
-              entrepreneurs and AI engineers in Nigeria with a common goal
-              called "National Development".
+              We empower hardware developers, startup founders, entrepreneurs,
+              and AI engineers in Nigeria by providing a collaborative platform
+              for innovation, knowledge sharing, and mutual support in the
+              rapidly evolving fields of hardware, AI, and IoT..
             </p>
           </div>
           <div className="card_two_img"></div>
         </div>
         <div className="card_three">
           <div className="card_three_text">
-            <h2 className="card_three_h2">Who We Are.</h2>
+            <h2 className="card_three_h2">Why we exist</h2>
             <p>
-              NIHDS is not just a community, it is a platform that serves as a
-              cutting edge tool for hardware developers, startup founders
-              entrepreneurs and AI engineers in Nigeria with a common goal
-              called "National Development".
+              Through our initiatives and collaborative efforts, we aim to
+              catalyze Nigeria's hardware and AI industry, creating a thriving
+              ecosystem that not only generates technological advancements but
+              also contributes significantly to economic prosperity and job
+              creation within the country.
             </p>
           </div>
           <div className="card_three_img"></div>
