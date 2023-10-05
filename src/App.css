@@ -175,6 +175,7 @@ body {
 .full_program {
   padding: 2rem;
   margin: 1.5rem 0;
+  background-color: aliceblue;
 }
 
 .summary p,
@@ -259,7 +260,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .hero_p {
-    font-size: 4vw;
+    font-size: 6vw;
   }
   .card_one,
   .card_two,
@@ -298,11 +299,31 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .hero_h1 {
+    font-size: 4.5rem;
+  }
+  .join_btn {
+    font-size: 4vw;
+  }
   .footer-links li a {
     display: block;
   }
 
   .footer-logo {
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero_p {
+    font-size: 7vw;
+  }
+  .join_btn {
+    font-size: 4vw;
+  }
+  .card_one_h2,
+  .card_two_h2,
+  .card_three_h2 {
+    font-size: 8vw;
   }
 }
