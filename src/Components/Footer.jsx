@@ -1,4 +1,5 @@
 import Logo from "../assets/nav_logo.png";
+import socials from "../assets/react.svg";
 
 const Footer = () => {
   return (
@@ -32,16 +33,16 @@ const Footer = () => {
           </div>
           <div className="footer-social">
             <a href="#" className="social-icon">
-              <img src="facebook-icon.png" alt="Facebook" />
+              <img src={socials} alt="Facebook" />
             </a>
             <a href="https://x.com/Nihdc_NG" className="social-icon">
-              <img src="twitter-icon.png" alt="Twitter" />
+              <img src={socials} alt="Twitter" />
             </a>
             <a
               href="https://www.linkedin.com/company/nigeria-innovative-hardware-development-society-nihds/"
               className="social-icon"
             >
-              <img src="linkedin-icon.png" alt="LinkedIn" />
+              <img src={socials} alt="LinkedIn" />
             </a>
           </div>
         </div>
