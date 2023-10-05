@@ -1,5 +1,6 @@
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
+import Button from "../Components/Button";
 
 const AboutPage = () => {
   return (
@@ -158,6 +159,12 @@ const AboutPage = () => {
           </ul>
         </div>
       </div>
+      <section className="body_cta">
+        <div>
+          <h3>Now ready to join?</h3>
+          <Button />
+        </div>
+      </section>
       <Footer />
     </>
   );
