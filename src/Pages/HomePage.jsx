@@ -65,7 +65,9 @@ const HomePage = () => {
           <li>Regulatory framework</li>
           <li>Access to Funding</li>
           <li>Collaboration and Networking</li>
-          <li>and lots more</li>
+          <li>
+            <a href="/about#full_program">and lots more</a>
+          </li>
         </ul>
       </section>
       <section className="body_cta">

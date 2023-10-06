@@ -50,7 +50,7 @@ const AboutPage = () => {
             hardware and AI innovation and creativity.
           </p>
         </div>
-        <div className="full_program">
+        <div className="full_program" id="full_program">
           <h3>All Our Programs</h3>
           <p>
             The NIHDS core value is to cultivate a thriving ecosystem that

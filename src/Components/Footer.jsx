@@ -1,6 +1,12 @@
 import Logo from "../assets/nav_logo.png";
 import socials from "../assets/react.svg";
 
+{
+  /* <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">
+  Instagram icons created by edt.im - Flaticon
+</a>; */
+}
+
 const Footer = () => {
   return (
     <>
@@ -32,8 +38,8 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-social">
-            <a href="#" className="social-icon">
-              <img src={socials} alt="Facebook" />
+            <a href="https://instagram.com/nihds_ng" className="social-icon">
+              <img src={socials} alt="Instagram" />
             </a>
             <a href="https://x.com/Nihdc_NG" className="social-icon">
               <img src={socials} alt="Twitter" />

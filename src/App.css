@@ -20,6 +20,7 @@ body {
 .nav_bar {
   display: flex;
   padding: 0 4vw;
+  border-bottom: 1px solid var(--p-blue);
 }
 
 .nav_logo {
@@ -56,7 +57,7 @@ body {
 .hero_h1 {
   font-size: 9vw; /* font size of the h1 */
   margin-bottom: 3rem;
-  color: var(--p-blue);
+  color: white;
 }
 
 .hero_p {
@@ -129,11 +130,20 @@ body {
 .card_one_img,
 .card_two_img,
 .card_three_img {
-  background: url("./assets/bg.jpg");
   flex: 1;
   height: 18rem;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.card_one_img {
+  background-image: url("./assets/engineers.jpg");
+}
+.card_two_img {
+  background-image: url("./assets/what-we-do.jpg");
+}
+.card_three_img {
+  background-image: url("./assets/why-we-exist.jpg");
 }
 
 .programs {
@@ -141,6 +151,7 @@ body {
 }
 
 .programs h2 {
+  color: var(--p-blue);
   font-size: 4vw;
   margin-bottom: 2rem;
 }
@@ -150,7 +161,7 @@ body {
 }
 
 .programs li {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .body_cta {
@@ -163,9 +174,11 @@ body {
 
 .body_cta h3 {
   font-size: 4vw;
+  color: var(--p-blue);
 }
 
 .about_wrapper {
+  /* border-top: 1px solid forestgreen; */
   margin: 4vw;
 }
 
@@ -259,6 +272,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .hero_h1 {
+    font-size: 4.5rem;
+  }
   .hero_p {
     font-size: 6vw;
   }
@@ -278,6 +294,11 @@ body {
   .card_three p {
     margin-bottom: 1.5rem;
     font-size: 3.5vw;
+  }
+
+  .programs h2,
+  .body_cta h3 {
+    font-size: 1.5rem;
   }
   .footer-content {
     margin: 0 3vw;
@@ -299,9 +320,6 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .hero_h1 {
-    font-size: 4.5rem;
-  }
   .join_btn {
     font-size: 4vw;
   }
