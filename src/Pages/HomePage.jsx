@@ -1,4 +1,5 @@
 import Button from "../Components/Button";
+import Executive from "../Components/Executive";
 import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
 
@@ -45,11 +46,12 @@ const HomePage = () => {
           <div className="card_three_text">
             <h2 className="card_three_h2">Why we exist</h2>
             <p>
-              Through our initiatives and collaborative efforts, we aim to
-              catalyze Nigeria's hardware and AI industry, creating a thriving
-              ecosystem that not only generates technological advancements but
-              also contributes significantly to economic prosperity and job
-              creation within the country.
+              Nigeria's hardware and AI industry lags globally due to limited
+              government support. China excels in hardware, while Nigeria
+              struggles with minimal expertise. Initiatives like NIHDS aim to
+              unite developers for national growth, boosting productivity,
+              reducing unemployment, and decreasing imports. Nigeria's potential
+              could spark an industrial revolution and global recognition.
             </p>
           </div>
           <div className="card_three_img"></div>
@@ -69,6 +71,19 @@ const HomePage = () => {
             <a href="/about#full_program">and lots more</a>
           </li>
         </ul>
+      </section>
+      <section className="executive_panel">
+        <h2>Meet the Executives</h2>
+        <Executive
+          name="Bolarinwa Kemisola"
+          title="President"
+          li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
+        />
+        <Executive
+          name="Michael Ojo"
+          title="Public Relations Officer 1"
+          li_link="https://linkedin.com/in/michael-ojo-38271a130"
+        />
       </section>
       <section className="body_cta">
         <div>

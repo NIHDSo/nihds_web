@@ -195,14 +195,27 @@ body {
   background-image: url("./assets/why-we-exist.jpg");
 }
 
-.programs {
-  margin: 0 8vw;
+.programs,
+.executive_panel {
+  margin: 2rem 8vw;
 }
 
-.programs h2 {
+.programs h2,
+.executive_panel h2 {
   color: var(--p-blue);
   font-size: 4vw;
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
+}
+
+.executive_panel {
+  text-align: center;
+}
+
+.executive {
+  background-color: aliceblue;
+  padding: 2rem;
+  margin: 1.5rem auto;
+  width: 29rem;
 }
 
 .programs ul {
@@ -211,6 +224,10 @@ body {
 
 .programs li {
   font-size: 1.2rem;
+}
+
+.exec_img {
+  background-image: url("./assets/engineers.jpg");
 }
 
 .body_cta {
