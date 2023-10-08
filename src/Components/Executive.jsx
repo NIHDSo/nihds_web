@@ -1,4 +1,4 @@
-import li_icon from "../assets/react.svg";
+import li_icon from "../assets/linkedin-logo.svg";
 
 const Executive = (props) => {
   return (
@@ -11,10 +11,10 @@ const Executive = (props) => {
           <p>
             <b>{props.name}</b>
           </p>
-          <p>{props.title}</p>
+          <p className="exec_title">{props.title}</p>
           <div className="exec_socials">
             <a href={props.li_link} className="social-icon">
-              <img src={li_icon} alt="LinkedIn Profile" />
+              <img src={li_icon} alt="LinkedIn Profile" className="icon" />
             </a>
           </div>
         </div>

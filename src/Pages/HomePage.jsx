@@ -3,6 +3,7 @@ import Executive from "../Components/Executive";
 import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
 import kb from "../assets/engineers.jpg";
+import so from "../assets/seyi-ojelabi.jpg";
 
 const HomePage = () => {
   return (
@@ -77,7 +78,19 @@ const HomePage = () => {
         <h2>Meet the Executives</h2>
         <Executive
           name="Bolarinwa Kemisola"
-          title="President"
+          title=" The President"
+          li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
+          img_src={kb}
+        />
+        <Executive
+          name="Dr. Agu Collins"
+          title="The Chairman"
+          li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
+          img_src={kb}
+        />
+        <Executive
+          name="Ronald Ajiboye"
+          title="The Secretary 1"
           li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
           img_src={kb}
         />
@@ -87,6 +100,15 @@ const HomePage = () => {
           li_link="https://linkedin.com/in/michael-ojo-38271a130"
           img_src={kb}
         />
+        <Executive
+          name="Seyi Ojelabi"
+          title="Head of Research"
+          li_link="https://www.linkedin.com/in/seyi-ojelabi-918779198"
+          img_src={so}
+        />
+        <p>
+          <a href="/team">Meet the Core team</a>
+        </p>
       </section>
       <section className="body_cta">
         <div>

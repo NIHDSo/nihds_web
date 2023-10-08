@@ -6,7 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* border: 0.01px solid transparent; */
+  /* border: 1px solid red; */
 }
 a {
   text-decoration: none;
@@ -216,6 +216,18 @@ body {
   padding: 1.5rem;
   margin: 2.5rem auto;
   width: 20rem;
+  color: var(--p-blue);
+}
+
+.exec_img_div {
+  margin-bottom: 2rem;
+}
+
+.exec_img {
+  /* background-image: url("./assets/engineers.jpg"); */
+  width: 77%;
+  height: 23vh;
+  border-radius: 50%;
 }
 
 .exec_text p {
@@ -223,15 +235,9 @@ body {
   font-size: 1.1rem;
 }
 
-.exec_img_div {
-  margin-bottom: 4rem;
-}
-
-.exec_img {
-  /* background-image: url("./assets/engineers.jpg"); */
-  width: 85%;
-  height: 33vh;
-  border-radius: 50%;
+.icon {
+  width: 2rem;
+  margin-top: 1.5rem;
 }
 
 .programs ul {
@@ -330,7 +336,7 @@ body {
   margin: 0 auto;
   padding: 10px 20px;
   text-align: center;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .footer-legal {
@@ -347,6 +353,30 @@ body {
 .footer-legal a {
   text-decoration: none;
   color: white;
+}
+
+@media screen and (max-width: 860px) {
+  .footer-content {
+    display: block;
+  }
+  .footer-content {
+    margin: 0 3vw;
+  }
+
+  .footer-logo {
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-links ul {
+    text-align: center;
+  }
+
+  .footer-links ul {
+    margin-bottom: 1.2rem;
+  }
+  .footer-social {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -405,26 +435,9 @@ body {
   .body_cta h3 {
     font-size: 1.5rem;
   }
-  .footer-content {
-    margin: 0 3vw;
-  }
-  .footer-content {
-    display: block;
-  }
-
-  .footer-links ul {
-    text-align: center;
-  }
-
-  .footer-links ul {
-    margin-bottom: 1.2rem;
-  }
-  .footer-social {
-    text-align: center;
-  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .join_btn {
     font-size: 4vw;
   }
