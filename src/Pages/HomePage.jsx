@@ -2,6 +2,7 @@ import Button from "../Components/Button";
 import Executive from "../Components/Executive";
 import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
+import kb from "../assets/engineers.jpg";
 
 const HomePage = () => {
   return (
@@ -78,11 +79,13 @@ const HomePage = () => {
           name="Bolarinwa Kemisola"
           title="President"
           li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
+          img_src={kb}
         />
         <Executive
           name="Michael Ojo"
           title="Public Relations Officer 1"
           li_link="https://linkedin.com/in/michael-ojo-38271a130"
+          img_src={kb}
         />
       </section>
       <section className="body_cta">
