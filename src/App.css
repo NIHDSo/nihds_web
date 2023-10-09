@@ -207,7 +207,8 @@ body {
   margin-bottom: 3.5rem;
 }
 
-.executive_panel {
+.executive_panel,
+.full_executives {
   text-align: center;
 }
 
@@ -225,8 +226,8 @@ body {
 
 .exec_img {
   /* background-image: url("./assets/engineers.jpg"); */
-  width: 77%;
-  height: 23vh;
+  width: 13rem;
+  height: 13rem;
   border-radius: 50%;
 }
 
@@ -432,7 +433,8 @@ body {
   }
 
   .programs h2,
-  .body_cta h3 {
+  .body_cta h3,
+  .executive_panel h2 {
     font-size: 1.5rem;
   }
 }

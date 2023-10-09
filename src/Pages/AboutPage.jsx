@@ -1,6 +1,9 @@
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 import Button from "../Components/Button";
+import Executive from "../Components/Executive";
+import kb from "../assets/engineers.jpg";
+import so from "../assets/seyi-ojelabi.jpg";
 
 const AboutPage = () => {
   return (
@@ -41,7 +44,7 @@ const AboutPage = () => {
             The vision is to become the cornerstone of hardware and AI
             innovation and entrepreneurship in the Nation. We envision a future
             where our community serves as a thriving hub for inventors, startups
-            and professionals are at forefront driving technological
+            and professionals are at forefront dryiving technological
             breakthroughs, excellence, solving unique problems and economic
             prosperity. Through collaborative effort, skill development and a
             strong support network we aim to empower individuals and
@@ -159,6 +162,41 @@ const AboutPage = () => {
           </ul>
         </div>
       </div>
+      <section className="full_executives" id="full_executives">
+        <h2>Meet All our Executives</h2>
+        <div>
+          <Executive
+            name="Bolarinwa Kemisola"
+            title=" The President"
+            li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
+            img_src={kb}
+          />
+          <Executive
+            name="Dr. Agu Collins"
+            title="The Chairman"
+            li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
+            img_src={kb}
+          />
+          <Executive
+            name="Ronald Ajiboye"
+            title="The Secretary 1"
+            li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
+            img_src={kb}
+          />
+          <Executive
+            name="Michael Ojo"
+            title="Public Relations Officer 1"
+            li_link="https://linkedin.com/in/michael-ojo-38271a130"
+            img_src={kb}
+          />
+          <Executive
+            name="Seyi Ojelabi"
+            title="Head of Research"
+            li_link="https://www.linkedin.com/in/seyi-ojelabi-918779198"
+            img_src={so}
+          />
+        </div>
+      </section>
       <section className="body_cta">
         <div>
           <h3>Now ready to join?</h3>

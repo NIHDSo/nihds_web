@@ -107,7 +107,7 @@ const HomePage = () => {
           img_src={so}
         />
         <p>
-          <a href="/team">Meet the Core team</a>
+          <a href="/about#full_executives">Meet the Core team</a>
         </p>
       </section>
       <section className="body_cta">
