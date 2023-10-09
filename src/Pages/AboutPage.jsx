@@ -177,6 +177,7 @@ const AboutPage = () => {
             li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
             img_src={kb}
           />
+
           <Executive
             name="Ronald Ajiboye"
             title="The Secretary 1"
@@ -184,8 +185,27 @@ const AboutPage = () => {
             img_src={kb}
           />
           <Executive
+            name="Olorunnope John"
+            title="The Secretary 2"
+            li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
+            img_src={kb}
+          />
+          <Executive
+            name="Dada Yemisi"
+            title="The Treasurer"
+            li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
+            img_src={kb}
+          />
+
+          <Executive
             name="Michael Ojo"
             title="Public Relations Officer 1"
+            li_link="https://linkedin.com/in/michael-ojo-38271a130"
+            img_src={kb}
+          />
+          <Executive
+            name="Agata John"
+            title="Public Relations Officer 2"
             li_link="https://linkedin.com/in/michael-ojo-38271a130"
             img_src={kb}
           />
