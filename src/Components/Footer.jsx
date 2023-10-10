@@ -1,5 +1,7 @@
 import Logo from "../assets/nav_logo.png";
-import socials from "../assets/react.svg";
+import iglogo from "../assets/ig-logo.png";
+import twlogo from "../assets/tw-logo.png";
+import lilogo from "../assets/li-logo.png";
 
 {
   /* <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">
@@ -18,7 +20,7 @@ const Footer = () => {
           <div className="footer-links">
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="/about">About Us</a>
@@ -38,17 +40,17 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-social">
-            <a href="https://instagram.com/nihds_ng" className="social-icon">
-              <img src={socials} alt="Instagram" />
-            </a>
-            <a href="https://x.com/Nihdc_NG" className="social-icon">
-              <img src={socials} alt="Twitter" />
-            </a>
             <a
               href="https://www.linkedin.com/company/nigeria-innovative-hardware-development-society-nihds/"
               className="social-icon"
             >
-              <img src={socials} alt="LinkedIn" />
+              <img src={lilogo} alt="LinkedIn" width={35} />
+            </a>
+            <a href="https://x.com/Nihdc_NG" className="social-icon">
+              <img src={twlogo} alt="Twitter" width={35} />
+            </a>
+            <a href="https://instagram.com/nihds_ng" className="social-icon">
+              <img src={iglogo} alt="Instagram" width={35} />
             </a>
           </div>
         </div>
