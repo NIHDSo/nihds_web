@@ -5,6 +5,8 @@ import Executive from "../Components/Executive";
 import kb from "../assets/kemisola-bolarinwa.jpg";
 import mo from "../assets/michael-ojo.jpg";
 import so from "../assets/seyi-ojelabi.jpg";
+import dy from "../assets/dada-yemisi.jpg";
+import ra from "../assets/ronald-ajoboye.png"
 
 const AboutPage = () => {
   return (
@@ -189,7 +191,7 @@ const AboutPage = () => {
             name="Ronald Ajiboye"
             title="The Secretary 1"
             li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
-            img_src={kb}
+            img_src={ra}
           />
           <Executive
             name="Olorunnope John"
@@ -201,7 +203,7 @@ const AboutPage = () => {
             name="Dada Yemisi"
             title="The Treasurer"
             li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
-            img_src={kb}
+            img_src={dy}
           />
 
           <Executive
