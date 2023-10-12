@@ -2,6 +2,7 @@ import Logo from "../assets/nav_logo.png";
 import iglogo from "../assets/ig-logo.png";
 import twlogo from "../assets/tw-logo.png";
 import lilogo from "../assets/li-logo.png";
+import fblogo from "../assets/fb-logo.png";
 
 {
   /* <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">
@@ -51,6 +52,9 @@ const Footer = () => {
             </a>
             <a href="https://instagram.com/nihds_ng" className="social-icon">
               <img src={iglogo} alt="Instagram" width={35} />
+            </a>
+            <a href="https://instagram.com/nihds_ng" className="social-icon">
+              <img src={fblogo} alt="facebook" width={40} />
             </a>
           </div>
         </div>

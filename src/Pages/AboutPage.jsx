@@ -6,7 +6,7 @@ import kb from "../assets/kemisola-bolarinwa.jpg";
 import mo from "../assets/michael-ojo.jpg";
 import so from "../assets/seyi-ojelabi.jpg";
 import dy from "../assets/dada-yemisi.jpg";
-import ra from "../assets/ronald-ajoboye.png"
+import ra from "../assets/ronald-ajoboye.png";
 
 const AboutPage = () => {
   return (
@@ -169,12 +169,6 @@ const AboutPage = () => {
         <h2>Meet All our Executives</h2>
         <div>
           <Executive
-            name="Bolarinwa Kemisola"
-            title=" The President"
-            li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
-            img_src={kb}
-          />
-          <Executive
             name="Dr. Agu Collins"
             title="The Chairman"
             li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
@@ -183,6 +177,12 @@ const AboutPage = () => {
           <Executive
             name="Engr. Ahmad Sadiq"
             title="The Vice Chairman"
+            li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
+            img_src={kb}
+          />
+          <Executive
+            name="Bolarinwa Kemisola"
+            title=" The President"
             li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
             img_src={kb}
           />

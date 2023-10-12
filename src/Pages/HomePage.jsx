@@ -2,8 +2,11 @@ import Button from "../Components/Button";
 import Executive from "../Components/Executive";
 import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
-import kb from "../assets/engineers.jpg";
+import kb from "../assets/kemisola-bolarinwa.jpg";
+import mo from "../assets/michael-ojo.jpg";
 import so from "../assets/seyi-ojelabi.jpg";
+import dy from "../assets/dada-yemisi.jpg";
+import ra from "../assets/ronald-ajoboye.png";
 
 const HomePage = () => {
   return (
@@ -77,28 +80,29 @@ const HomePage = () => {
       <section className="executive_panel">
         <h2>Meet the Executives</h2>
         <Executive
-          name="Bolarinwa Kemisola"
-          title=" The President"
-          li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
-          img_src={kb}
-        />
-        <Executive
           name="Dr. Agu Collins"
           title="The Chairman"
           li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
           img_src={kb}
         />
         <Executive
+          name="Bolarinwa Kemisola"
+          title=" The President"
+          li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
+          img_src={kb}
+        />
+
+        <Executive
           name="Ronald Ajiboye"
           title="The Secretary 1"
           li_link="https://linkedin.com/in/kemisola-bolarinwa-399694182"
-          img_src={kb}
+          img_src={ra}
         />
         <Executive
           name="Michael Ojo"
           title="Public Relations Officer 1"
           li_link="https://linkedin.com/in/michael-ojo-38271a130"
-          img_src={kb}
+          img_src={mo}
         />
         <Executive
           name="Seyi Ojelabi"
