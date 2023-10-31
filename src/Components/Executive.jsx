@@ -5,7 +5,7 @@ const Executive = (props) => {
     <>
       <div className="executive">
         <div className="exec_img_div">
-          <img src={props.img_src} className="exec_img" />
+          <img src={props.img_src} className="exec_img" alt="image" />
         </div>
         <div className="exec_text">
           <p>
