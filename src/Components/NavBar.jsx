@@ -12,7 +12,9 @@ const NavBar = () => {
   return (
     <>
       <nav className={`nav_bar ${isMobileMenuOpen ? "mobile" : ""}`}>
-        <img className="nav_logo" src={Logo} alt="Logo" />
+        <Link to="/">
+          <img className="nav_logo" src={Logo} alt="Logo" />
+        </Link>
         <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
           <div className={`bar ${isMobileMenuOpen ? "open" : ""}`} />
           <div className={`bar ${isMobileMenuOpen ? "open" : ""}`} />

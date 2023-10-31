@@ -8,6 +8,7 @@
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
+
 a {
   text-decoration: none;
 }
@@ -45,14 +46,36 @@ body {
 
 .nav_bar {
   display: flex;
-  padding: 0 4vw;
-  border-bottom: 1px solid var(--p-blue);
+  padding: 0 4vw 2vw 4vw;
+  /* border-bottom: 1px solid var(--p-blue); */
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  /* Stick to the top */
+  background-color: white;
+  /* Set a background color if needed */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Apply box shadow */
+  z-index: 1;
+  /* Ensure it's above other content */
 }
+
+
+.nav_bar ul {
+  margin-top: 35px;
+}
+
+/* @media (max-width: 1024px) {
+  .nav_bar ul {
+    margin-top: 50px;
+  }
+} */
 
 .nav_logo {
   width: 10rem;
+  cursor: pointer;
+  margin-top: 5px;
 }
 
 .desktop-menu {
@@ -84,6 +107,7 @@ body {
   height: 3px;
   width: 100%;
   transition: 0.4s;
+  margin-top: 4px;
 }
 
 .desktop-menu.hidden {
@@ -104,7 +128,8 @@ body {
 }
 
 .hero_h1 {
-  font-size: 9vw; /* font size of the h1 */
+  font-size: 9vw;
+  /* font size of the h1 */
   margin-bottom: 3rem;
   color: white;
 }
@@ -119,6 +144,7 @@ body {
   font-size: 3vw;
   background-color: var(--p-blue);
   padding: 0.9rem 2.5rem;
+  justify-content: center;
   cursor: pointer;
   margin-top: 5rem;
   color: white;
@@ -188,9 +214,11 @@ body {
 .card_one_img {
   background-image: url("./assets/engineers.jpg");
 }
+
 .card_two_img {
   background-image: url("./assets/what-we-do.jpg");
 }
+
 .card_three_img {
   background-image: url("./assets/why-we-exist.jpg");
 }
@@ -200,7 +228,14 @@ body {
   margin: 2rem 8vw;
 }
 
-.programs h2,
+
+
+.programs h2 {
+  color: var(--p-blue);
+  font-size: 4vw;
+  margin-bottom: 3.5rem;
+}
+
 .executive_panel h2 {
   color: var(--p-blue);
   font-size: 4vw;
@@ -247,6 +282,7 @@ body {
 
 .programs li {
   font-size: 1.2rem;
+  justify-content: flex-start;
 }
 
 .body_cta {
@@ -360,6 +396,7 @@ body {
   .footer-content {
     display: block;
   }
+
   .footer-content {
     margin: 0 3vw;
   }
@@ -375,6 +412,7 @@ body {
   .footer-links ul {
     margin-bottom: 1.2rem;
   }
+
   .footer-social {
     text-align: center;
   }
@@ -411,14 +449,17 @@ body {
   .hero_h1 {
     font-size: 4.5rem;
   }
+
   .hero_p {
     font-size: 6vw;
   }
+
   .card_one,
   .card_two,
   .card_three {
     display: block;
   }
+
   .card_one_h2,
   .card_two_h2,
   .card_three_h2 {
@@ -443,6 +484,7 @@ body {
   .join_btn {
     font-size: 4vw;
   }
+
   .footer-links li a {
     display: block;
   }
@@ -456,9 +498,11 @@ body {
   .hero_p {
     font-size: 7vw;
   }
+
   .join_btn {
     font-size: 4vw;
   }
+
   .card_one_h2,
   .card_two_h2,
   .card_three_h2 {
