@@ -2,12 +2,7 @@ import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 import Button from "../Components/Button";
 import Executive from "../Components/Executive";
-import kb from "../assets/kemisola-bolarinwa.jpg";
-import mo from "../assets/michael-ojo.jpg";
-import so from "../assets/seyi-ojelabi.jpg";
-import dy from "../assets/dada-yemisi.jpg";
-import ra from "../assets/ronald-ajoboye.png";
-import { accordionList, allOrderedList, allOrdredList, executiveList } from "../mockData/data";
+import { accordionList, allOrdredList } from "../mockData/data";
 import AccordionList from "../Components/AccordionList";
 
 
