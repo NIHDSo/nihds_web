@@ -1,11 +1,12 @@
 import kemisolaBolarinwaImage from '../assets/kemisola-bolarinwa.jpg';
 import aguImage from '../assets/agu.jpg';
-import ronaldAjiboyeImage from '../assets/ronald-ajoboye.png';
+import olorunopeJohnImage from '../assets/ronald-ajoboye.png';
 import dadaYemisiImage from '../assets/dada-yemisi.jpg';
 import michaelOjoImage from '../assets/michael-ojo.jpg';
 import seyiOjelabiImage from '../assets/seyi-ojelabi.jpg';
 import placeHodlerImage from '../assets/placeholder.png';
-import ahmadsadiqImage from '../assets/ahmad-sadiq.jpg'
+import ahmadsadiqImage from '../assets/ahmad-sadiq.jpg';
+import igataJohnImage from '../assets/IgataJohn.jpg'
 
 
 
@@ -223,14 +224,14 @@ export const allOrdredList = [
         name: "Engr. Ahmad Sadiq",
         title: "The Vice President",
         link: "https://linkedin.com/in/kemisola-bolarinwa-399694182",
-        image: placeHodlerImage,
+        image: ahmadsadiqImage,
     },
     {
         id: "4",
         name: "Olorunope John",
         title: "The Secretary",
         link: "https://linkedin.com/in/kemisola-bolarinwa-399694182",
-        image: ronaldAjiboyeImage,
+        image: olorunopeJohnImage,
     },
     {
         id: "5",
@@ -251,7 +252,7 @@ export const allOrdredList = [
         name: "Igata John",
         title: "Public Relations Officer 2",
         link: "https://linkedin.com/in/michael-ojo-38271a130",
-        image: placeHodlerImage,
+        image: igataJohnImage,
     },
     {
         id: "9",
