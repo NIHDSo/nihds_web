@@ -5,6 +5,7 @@ import dadaYemisiImage from '../assets/dada-yemisi.jpg';
 import michaelOjoImage from '../assets/michael-ojo.jpg';
 import seyiOjelabiImage from '../assets/seyi-ojelabi.jpg';
 import placeHodlerImage from '../assets/placeholder.png';
+import ahmadsadiqImage from '../assets/ahmad-sadiq.jpg'
 
 
 
@@ -59,7 +60,7 @@ export const executiveList = [
         name: "Engr. Ahmed Sadiq",
         title: "Vice President",
         link: "https://linkedin.com/in/kemisola-bolarinwa-399694182",
-        image: placeHodlerImage,
+        image: ahmadsadiqImage,
     },
     {
         id: "4",
