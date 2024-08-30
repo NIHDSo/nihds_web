@@ -6,7 +6,6 @@ import michaelOjoImage from '../assets/michael-ojo.jpg';
 import seyiOjelabiImage from '../assets/seyi-ojelabi.jpg';
 import placeHodlerImage from '../assets/placeholder.png';
 import ahmadsadiqImage from '../assets/ahmad-sadiq.jpg';
-import igataJohnImage from '../assets/IgataJohn.jpg'
 
 
 
@@ -46,7 +45,7 @@ export const executiveList = [
         id: "1",
         name: "Dr. Agu Collins",
         title: "The Chairman",
-        link: "https://linkedin.com/in/kemisola-bolarinwa-399694182",
+        link: "https://www.linkedin.com/in/agucollinsagu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
         image: aguImage,
     },
     {
@@ -60,7 +59,7 @@ export const executiveList = [
         id: "3",
         name: "Engr. Ahmed Sadiq",
         title: "Vice President",
-        link: "https://linkedin.com/in/kemisola-bolarinwa-399694182",
+        link: " https://www.linkedin.com/in/ahmadsadiq?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
         image: ahmadsadiqImage,
     },
     {
@@ -209,7 +208,7 @@ export const allOrdredList = [
         id: "1",
         name: "Dr. Agu Collins",
         title: "The Chairman",
-        link: "https://linkedin.com/in/kemisola-bolarinwa-399694182",
+        link: "https://www.linkedin.com/in/agucollinsagu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         image: aguImage,
     },
     {
@@ -223,21 +222,21 @@ export const allOrdredList = [
         id: "3",
         name: "Engr. Ahmad Sadiq",
         title: "The Vice President",
-        link: "https://linkedin.com/in/kemisola-bolarinwa-399694182",
+        link: "https://www.linkedin.com/in/ahmadsadiq?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
         image: ahmadsadiqImage,
     },
     {
         id: "4",
         name: "Olorunope John",
         title: "The Secretary",
-        link: "https://linkedin.com/in/kemisola-bolarinwa-399694182",
+        link: " https://www.linkedin.com/in/john-olorunnope-09114b72?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
         image: olorunopeJohnImage,
     },
     {
         id: "5",
         name: "Dada Yemisi",
         title: "The Treasurer",
-        link: "https://linkedin.com/in/kemisola-bolarinwa-399694182",
+        link: " https://www.linkedin.com/in/oluwayemisi-dada?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_ap ",
         image: dadaYemisiImage,
     },
     {
@@ -247,13 +246,7 @@ export const allOrdredList = [
         link: "https://linkedin.com/in/michael-ojo-38271a130",
         image: michaelOjoImage,
     },
-    {
-        id: "8",
-        name: "Igata John",
-        title: "Public Relations Officer 2",
-        link: "https://linkedin.com/in/michael-ojo-38271a130",
-        image: igataJohnImage,
-    },
+ 
     {
         id: "9",
         name: "Seyi Ojelabi",
