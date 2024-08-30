@@ -65,7 +65,7 @@ export const executiveList = [
     {
         id: "4",
         name: "Michael Ojo",
-        title: "Public Relations Officer 1",
+        title: "Public Relations Officer",
         link: "https://linkedin.com/in/michael-ojo-38271a130",
         image: michaelOjoImage,
     },
@@ -242,7 +242,7 @@ export const allOrdredList = [
     {
         id: "6",
         name: "Michael Ojo",
-        title: "Public Relations Officer 1",
+        title: "Public Relations Officer",
         link: "https://linkedin.com/in/michael-ojo-38271a130",
         image: michaelOjoImage,
     },
